@@ -1,0 +1,12 @@
+{
+  "name": "vcc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "badge": "node scripts/make-badge.mjs",
+    "build": "node scripts/build-index.mjs",
+    "check": "node scripts/build-index.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}

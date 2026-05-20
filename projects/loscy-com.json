@@ -1,0 +1,21 @@
+{
+  "name": "Loscy",
+  "description": "A pixel-style personal site and blog with a desktop-inspired interface.",
+  "url": "https://loscy.com/",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "self-claimed"
+  },
+  "ai": [
+    {
+      "tool": "Codex",
+      "models": [
+        {
+          "model": "GPT-5.5",
+          "prompt": "Build a quiet personal Hexo blog with a custom EJS theme that feels like a small pixel desktop: an entry loading screen, window-style inner pages for about/blog/project content, Unifont-based monochrome UI, a persistent bottom system bar with clock/music controls, and lightweight vanilla CSS/JS instead of a heavy framework."
+        }
+      ]
+    }
+  ]
+}

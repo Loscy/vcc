@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vibe Code Club is a lightweight directory of projects built with meaningful AI involvement.">
+    <title>Vibe Code Club</title>
+    <link rel="stylesheet" href="styles.css?v=20260521a">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav aria-label="Primary">
+        <a class="brand" href="./">Vibe Code Club</a>
+        <div class="nav-links">
+          <a href="join.html">Join</a>
+        </div>
+      </nav>
+      <section class="intro">
+        <div>
+          <h1>A club for projects shaped by AI.</h1>
+        </div>
+        <p>
+          Discover apps, tools, experiments, and websites across VCC-A, VCC-V,
+          and VCC-Z levels. Submit your project with one JSON file.
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <section class="workspace">
+        <div class="directory-panel">
+          <section class="toolbar" aria-label="Project filters">
+            <label class="search">
+              <span>Search</span>
+              <input id="search" type="search" placeholder="Name, tool, description, domain" autocomplete="off">
+            </label>
+            <div class="filter-row" aria-label="Certification filters">
+              <div>
+                <span class="filter-label">Level</span>
+                <div class="filter-buttons" data-filter-group="level">
+                  <button type="button" data-filter-value="">All</button>
+                  <button class="level-vcc-a" type="button" data-filter-value="VCC-A">VCC-A</button>
+                  <button class="level-vcc-v" type="button" data-filter-value="VCC-V">VCC-V</button>
+                  <button class="level-vcc-z" type="button" data-filter-value="VCC-Z">VCC-Z</button>
+                </div>
+              </div>
+              <div>
+                <span class="filter-label">Status</span>
+                <div class="filter-buttons" data-filter-group="status">
+                  <button type="button" data-filter-value="">All</button>
+                  <button class="status-self-claimed" type="button" data-filter-value="self-claimed">Self-claimed</button>
+                  <button class="status-discovered" type="button" data-filter-value="discovered">AI discovered</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="summary" aria-live="polite">
+            <p id="count">Loading projects...</p>
+            <button id="clear" type="button">Clear filters</button>
+          </section>
+
+          <section id="projects" class="project-grid" aria-label="Club projects"></section>
+          <p id="empty" class="empty" hidden>No matching projects yet.</p>
+        </div>
+
+        <aside class="side-panel" aria-label="VCC details">
+          <section class="cert-guide" aria-labelledby="cert-title">
+            <p class="eyebrow">levels</p>
+            <h2 id="cert-title">VCC certification</h2>
+            <dl>
+              <div>
+                <dt>VCC-A</dt>
+                <dd>AI assisted. Humans wrote much of the code.</dd>
+              </div>
+              <div>
+                <dt>VCC-V</dt>
+                <dd>Vibe coded. Human-directed, AI-implemented.</dd>
+              </div>
+              <div>
+                <dt>VCC-Z</dt>
+                <dd>Zero hand code. AI handled coding, fixes, build, and deployment from zero to launch. Humans only direct, review, approve, and handle external setup such as DNS, accounts, secrets, or hosting confirmations.</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="status-guide" aria-labelledby="status-title">
+            <p class="eyebrow">status</p>
+            <h2 id="status-title">Listing source</h2>
+            <dl>
+              <div>
+                <dt>self-claimed</dt>
+                <dd>Submitted or confirmed by the project owner.</dd>
+              </div>
+              <div>
+                <dt>AI discovered</dt>
+                <dd>Collected by automated discovery. If the listing is wrong, inaccurate, or unwanted, sorry for the trouble. Contact us or open an issue and we will remove or adjust it promptly.</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="badge-panel" aria-labelledby="badge-title">
+          <div>
+            <p class="eyebrow">badge</p>
+            <h2 id="badge-title">Put VCC on your project.</h2>
+            <p>
+              Link back with a tiny badge. Add your domain to send visitors to
+              a filtered VCC search.
+            </p>
+          </div>
+          <div class="badge-box">
+            <div class="badge-preview" aria-label="Badge preview">
+              <a id="badge-preview" href="https://vcc.loscy.com/" target="_blank" rel="noopener" aria-label="Vibe Code Club">
+                <img src="img/badge.png" alt="Vibe Code Club" width="88" height="31">
+              </a>
+            </div>
+            <form class="badge-controls" aria-label="Badge options">
+              <label class="badge-label">
+                Project domain optional
+                <input id="badge-domain" type="text" maxlength="120" placeholder="example.com">
+              </label>
+            </form>
+            <pre><code id="badge-code"></code></pre>
+          </div>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Add an AI-built project by opening a pull request with a JSON file in <code>projects/</code>.
+      </p>
+    </footer>
+
+    <dialog id="prompt-dialog" class="prompt-dialog">
+      <form method="dialog">
+        <header>
+          <p class="eyebrow">prompt</p>
+          <button type="submit" aria-label="Close prompt">Close</button>
+        </header>
+        <div id="prompt-content" class="prompt-content"></div>
+      </form>
+    </dialog>
+
+    <script src="app.js?v=20260521a" defer></script>
+  </body>
+</html>

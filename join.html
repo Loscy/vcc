@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Generate a Vibe Code Club project JSON submission.">
+    <title>Join VCC</title>
+    <link rel="stylesheet" href="styles.css?v=20260521a">
+  </head>
+  <body>
+    <header class="site-header compact-header">
+      <nav aria-label="Primary">
+        <a class="brand" href="./">Vibe Code Club</a>
+        <div class="nav-links">
+          <a href="./">Directory</a>
+        </div>
+      </nav>
+      <section class="join-intro">
+        <h1>Join VCC</h1>
+        <p>Fill the form, copy the generated JSON, then open a GitHub feature request to submit your project.</p>
+      </section>
+    </header>
+
+    <main>
+      <section class="join-layout">
+        <form id="join-form" class="join-form">
+          <section class="form-section">
+            <div class="section-heading">
+              <h2>Project</h2>
+              <p>Basic public information for the directory card.</p>
+            </div>
+            <label class="field">
+              <span>Name <em aria-label="required">*</em></span>
+              <input id="project-name" type="text" placeholder="My Project" required>
+            </label>
+            <label class="field">
+              <span>URL <em aria-label="required">*</em></span>
+              <input id="project-url" type="url" placeholder="https://example.com/" required>
+            </label>
+            <label class="field field-wide">
+              <span>Description <em aria-label="required">*</em></span>
+              <textarea id="project-description" rows="4" placeholder="A short sentence about what this project does." required></textarea>
+            </label>
+            <label class="field">
+              <span>Language</span>
+              <select id="project-language">
+                <option value="en">English</option>
+                <option value="zh">中文</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+                <option value="multi">Multilingual</option>
+              </select>
+            </label>
+          </section>
+
+          <section class="form-section">
+            <div class="section-heading">
+              <h2>VCC</h2>
+              <p>Certification level and source status.</p>
+            </div>
+            <div class="field">
+              <div class="field-label">
+                <span>Level <em aria-label="required">*</em></span>
+                <button id="level-help" class="info-button" type="button" aria-label="Show VCC level details">?</button>
+              </div>
+              <select id="vcc-level">
+                <option value="VCC-V">VCC-V · Vibe Coded</option>
+                <option value="VCC-A">VCC-A · AI Assisted</option>
+                <option value="VCC-Z">VCC-Z · Zero Hand Code</option>
+              </select>
+            </div>
+            <p class="form-note">Manual submissions are saved as <code>self-claimed</code>. AI discovered is only used for automated collection.</p>
+          </section>
+
+          <section class="form-section">
+            <div class="section-heading">
+              <h2>AI</h2>
+              <p>Add one or more tools. Each tool can include multiple models and skills.</p>
+            </div>
+            <div id="ai-tools" class="ai-tools"></div>
+            <button id="add-tool" class="add-row" type="button">Add tool</button>
+          </section>
+        </form>
+
+        <aside class="json-panel">
+          <div>
+            <p class="eyebrow">json</p>
+            <h2>Generated entry</h2>
+          </div>
+          <pre><code id="json-output"></code></pre>
+          <div class="join-actions">
+            <button id="copy-json" type="button">Copy JSON</button>
+            <button id="submit-issue" type="button">Open feature request</button>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <dialog id="level-dialog" class="prompt-dialog level-dialog">
+      <form method="dialog">
+        <header>
+          <p class="eyebrow">levels</p>
+          <button type="submit">Close</button>
+        </header>
+        <div class="level-details">
+          <section>
+            <h3>VCC-A · AI Assisted</h3>
+            <p>AI helped significantly, but humans wrote much of the code.</p>
+          </section>
+          <section>
+            <h3>VCC-V · Vibe Coded</h3>
+            <p>Primarily built through natural-language direction and AI implementation. Humans direct, review, test, and may make small fixes.</p>
+          </section>
+          <section>
+            <h3>VCC-Z · Zero Hand Code</h3>
+            <p>AI handled coding, files, fixes, build, and deployment from zero to launch. Human work is limited to direction, review, approvals, and external setup such as DNS, accounts, secrets, payment, or hosting confirmations.</p>
+          </section>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="join.js?v=20260521a" defer></script>
+  </body>
+</html>
