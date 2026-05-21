@@ -1,4 +1,4 @@
-const githubJoinIssueUrl = "https://github.com/loscy/vcc/issues/new";
+const githubJoinIssueUrl = "https://github.com/Loscy/vcc/issues/new";
 
 const els = {
   form: document.querySelector("#join-form"),
@@ -307,8 +307,6 @@ els.copy.addEventListener("click", async () => {
 });
 
 els.submit.addEventListener("click", () => {
-  if (!validateEntry()) return;
-
   const body = [
     "Please add this project to Vibe Code Club.",
     "",

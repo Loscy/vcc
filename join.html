@@ -13,11 +13,12 @@
         <a class="brand" href="./">Vibe Code Club</a>
         <div class="nav-links">
           <a href="./">Directory</a>
+          <a href="https://github.com/Loscy/vcc" target="_blank" rel="noopener">GitHub</a>
         </div>
       </nav>
       <section class="join-intro">
         <h1>Join VCC</h1>
-        <p>Fill the form, copy the generated JSON, then open a GitHub join issue to submit your project.</p>
+        <p>Fill the form, review the generated JSON, then submit a GitHub join issue.</p>
       </section>
     </header>
 
@@ -87,10 +88,18 @@
             <p class="eyebrow">json</p>
             <h2>Generated entry</h2>
           </div>
+          <div class="submit-flow">
+            <h3>Submit flow</h3>
+            <ol>
+              <li>Fill the required project, VCC, and AI fields.</li>
+              <li>Review or copy the generated JSON.</li>
+              <li>Submit opens a prefilled GitHub issue with the <code>join</code> label.</li>
+            </ol>
+          </div>
           <pre><code id="json-output"></code></pre>
           <div class="join-actions">
             <button id="copy-json" type="button">Copy JSON</button>
-            <button id="submit-issue" type="button">Open join issue</button>
+            <button id="submit-issue" type="button">Submit</button>
           </div>
         </aside>
       </section>
