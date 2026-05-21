@@ -1,7 +1,13 @@
 # Vibe Code Club
 
+<a href="https://vcc.loscy.com/" target="_blank" rel="noopener">
+  <img src="https://vcc.loscy.com/img/badge.png" alt="Vibe Code Club" width="88" height="31">
+</a>
+
 Vibe Code Club (`vcc`) is a lightweight directory for projects built with
 meaningful AI involvement.
+
+Visit VCC at <https://vcc.loscy.com/>.
 
 The goal is to collect real apps, websites, tools, experiments, and prototypes
 with clear AI involvement, from AI-assisted development to vibe-coded and
@@ -26,8 +32,8 @@ Then open <http://localhost:4173>.
 
 ## Add a project
 
-You can generate a submission JSON from `join.html`, open a GitHub feature
-request, or create a file manually.
+You can generate a submission JSON from `join.html`, open a GitHub join issue,
+or create a file manually.
 
 Create a new JSON file in `projects/`, for example `projects/example.json`:
 

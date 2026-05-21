@@ -1,0 +1,36 @@
+name: Join
+description: Submit a project to Vibe Code Club.
+title: "Join: "
+labels: ["join"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit a VCC project entry. You can generate this JSON from the Join page.
+  - type: textarea
+    id: project-json
+    attributes:
+      label: Project JSON
+      description: Paste the generated VCC project JSON here.
+      placeholder: |
+        {
+          "name": "My Project",
+          "description": "A short sentence about the project.",
+          "url": "https://example.com/",
+          "language": "en",
+          "vcc": {
+            "level": "VCC-V",
+            "status": "self-claimed"
+          },
+          "ai": []
+        }
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional context for the submission.
+    validations:
+      required: false

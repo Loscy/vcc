@@ -1,0 +1,33 @@
+name: AI collection error
+description: Report an incorrect, inaccurate, or unwanted AI-discovered listing.
+title: "AI collection error: "
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when an AI-discovered VCC listing is wrong, inaccurate, or unwanted.
+        Sorry for the trouble. We will remove or adjust the listing promptly.
+  - type: input
+    id: project-url
+    attributes:
+      label: Project URL
+      description: The listed site or project URL.
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong?
+      description: Tell us what should be removed or corrected.
+      placeholder: This listing should be removed because...
+    validations:
+      required: true
+  - type: textarea
+    id: owner-note
+    attributes:
+      label: Owner note
+      description: Optional proof or context if you are the project owner.
+    validations:
+      required: false

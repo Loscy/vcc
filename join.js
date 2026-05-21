@@ -1,4 +1,4 @@
-const githubFeatureRequestUrl = "https://github.com/loscy/vcc/discussions/new";
+const githubJoinIssueUrl = "https://github.com/loscy/vcc/issues/new";
 
 const els = {
   form: document.querySelector("#join-form"),
@@ -310,16 +310,16 @@ els.submit.addEventListener("click", () => {
   if (!validateEntry()) return;
 
   const body = [
-    "Feature request: please add this project to Vibe Code Club.",
+    "Please add this project to Vibe Code Club.",
     "",
     "```json",
     els.output.textContent.trim(),
     "```",
   ].join("\n");
 
-  const url = new URL(githubFeatureRequestUrl);
-  url.searchParams.set("category", "feature-requests");
-  url.searchParams.set("title", `Add ${buildEntry().name}`);
+  const url = new URL(githubJoinIssueUrl);
+  url.searchParams.set("template", "join.yml");
+  url.searchParams.set("title", `Join: ${buildEntry().name}`);
   url.searchParams.set("body", body);
   window.open(url.toString(), "_blank", "noopener");
 });
