@@ -1,0 +1,20 @@
+{
+  "name": "Vibra Code",
+  "description": "An open-source AI app builder for mobile projects with prompt-to-app generation and phone preview.",
+  "url": "https://github.com/sa4hnd/vibra-code",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

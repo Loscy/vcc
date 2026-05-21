@@ -1,0 +1,20 @@
+{
+  "name": "Claude Code Base Project",
+  "description": "A production-ready Claude Code project template with specialized agents, Open Specs skills, and anti-hallucination layers.",
+  "url": "https://github.com/christianestay/claude-code-base-project",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

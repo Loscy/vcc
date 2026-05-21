@@ -1,0 +1,20 @@
+{
+  "name": "Enhanced Claude Code",
+  "description": "An enhanced Claude Code MCP server with task orchestration, file management, Git operations, terminal commands, retry logic, and monitoring.",
+  "url": "https://github.com/grahama1970/claude-code-mcp-enhanced",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "v3.0"
+        }
+      ]
+    }
+  ]
+}

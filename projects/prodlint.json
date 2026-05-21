@@ -1,0 +1,20 @@
+{
+  "name": "prodlint",
+  "description": "A production-readiness scanner for vibe-coded apps, focused on security, reliability, performance, and AI code quality.",
+  "url": "https://prodlint.com/",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI coding tools",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Payment Landing Page",
+  "description": "A payment product landing page created with v0.dev and Cursor, with a Vercel demo.",
+  "url": "https://github.com/timleecoder42/payment-landing-page",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "v0.dev",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Cursor",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

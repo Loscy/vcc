@@ -1,0 +1,20 @@
+{
+  "name": "Claude Code Mobile",
+  "description": "A containerized service for accessing Claude Code from mobile devices through a Happy-coder interface.",
+  "url": "https://github.com/cfrs2005/claude-code-mobile",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "v2.1.12"
+        }
+      ]
+    }
+  ]
+}

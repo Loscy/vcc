@@ -1,0 +1,28 @@
+{
+  "name": "zForge Marketplace",
+  "description": "A Claude Code plugin marketplace for production-ready security and development workshops built with Agent Forge.",
+  "url": "https://github.com/jeffdeville/zForge-marketplace",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Agent Forge",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

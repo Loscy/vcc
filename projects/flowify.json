@@ -1,0 +1,20 @@
+{
+  "name": "Flowify",
+  "description": "An open-source chat UI that turns n8n webhook endpoints into production-ready AI chat experiences.",
+  "url": "https://github.com/magnusfroste/flowifychat",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

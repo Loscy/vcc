@@ -1,0 +1,20 @@
+{
+  "name": "Anthropic Token Counter",
+  "description": "A web tool for counting Anthropic API tokens, with its initial interface created using v0.",
+  "url": "https://github.com/jerhadf/token-counter",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "v0",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

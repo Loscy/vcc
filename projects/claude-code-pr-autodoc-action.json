@@ -1,0 +1,20 @@
+{
+  "name": "Claude Code PR Autodoc Action",
+  "description": "A GitHub Action that uses Claude Code to auto-generate documentation for merged pull requests.",
+  "url": "https://github.com/textcortex/claude-code-pr-autodoc-action",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

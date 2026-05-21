@@ -1,0 +1,20 @@
+{
+  "name": "Vibe Check",
+  "description": "A toolkit and web app for checking production risks in AI-built and vibe-coded applications.",
+  "url": "https://vibe-check.cloud/",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI coding tools",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

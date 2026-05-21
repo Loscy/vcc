@@ -1,0 +1,20 @@
+{
+  "name": "Modo",
+  "description": "An open-source AI IDE that plans before it codes through requirements, design, and task steps.",
+  "url": "https://github.com/mohshomis/modo",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

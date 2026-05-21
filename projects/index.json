@@ -1,5 +1,185 @@
 [
   {
+    "name": "Anthropic Token Counter",
+    "description": "A web tool for counting Anthropic API tokens, with its initial interface created using v0.",
+    "url": "https://github.com/jerhadf/token-counter",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "v0",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Claude Code Base Project",
+    "description": "A production-ready Claude Code project template with specialized agents, Open Specs skills, and anti-hallucination layers.",
+    "url": "https://github.com/christianestay/claude-code-base-project",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Claude Code Guide",
+    "description": "A static Claude Code tutorial and reference site covering setup, commands, workflows, agents, skills, and tips.",
+    "url": "https://github.com/zebbern/claude-code-guide",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Claude Code Mobile",
+    "description": "A containerized service for accessing Claude Code from mobile devices through a Happy-coder interface.",
+    "url": "https://github.com/cfrs2005/claude-code-mobile",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "v2.1.12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Claude Code PR Autodoc Action",
+    "description": "A GitHub Action that uses Claude Code to auto-generate documentation for merged pull requests.",
+    "url": "https://github.com/textcortex/claude-code-pr-autodoc-action",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Claude Code Toolkit",
+    "description": "A production-tested toolkit of commands, skills, and workflow patterns for Claude Code.",
+    "url": "https://github.com/applied-artificial-intelligence/claude-code-toolkit",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Claude World Examples",
+    "description": "A collection of practical examples, best practices, templates, and case studies for Claude Code and Director Mode.",
+    "url": "https://github.com/claude-world/claude-world-examples",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Enhanced Claude Code",
+    "description": "An enhanced Claude Code MCP server with task orchestration, file management, Git operations, terminal commands, retry logic, and monitoring.",
+    "url": "https://github.com/grahama1970/claude-code-mcp-enhanced",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "v3.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Flowify",
+    "description": "An open-source chat UI that turns n8n webhook endpoints into production-ready AI chat experiences.",
+    "url": "https://github.com/magnusfroste/flowifychat",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Lovable",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Loscy",
     "description": "A pixel-style personal site and blog with a desktop-inspired interface.",
     "url": "https://loscy.com/",
@@ -15,6 +195,206 @@
           {
             "model": "GPT-5.5",
             "prompt": "Build a quiet personal Hexo blog with a custom EJS theme that feels like a small pixel desktop: an entry loading screen, window-style inner pages for about/blog/project content, Unifont-based monochrome UI, a persistent bottom system bar with clock/music controls, and lightweight vanilla CSS/JS instead of a heavy framework."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Modo",
+    "description": "An open-source AI IDE that plans before it codes through requirements, design, and task steps.",
+    "url": "https://github.com/mohshomis/modo",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Payment Landing Page",
+    "description": "A payment product landing page created with v0.dev and Cursor, with a Vercel demo.",
+    "url": "https://github.com/timleecoder42/payment-landing-page",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "v0.dev",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Cursor",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "prodlint",
+    "description": "A production-readiness scanner for vibe-coded apps, focused on security, reliability, performance, and AI code quality.",
+    "url": "https://prodlint.com/",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI coding tools",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seren Website",
+    "description": "A premium handcrafted candle brand website described as built with AI and no coding.",
+    "url": "https://github.com/iucjaishwal88/seren-website",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-Z",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Lovable",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Claude AI",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vibe Check",
+    "description": "A toolkit and web app for checking production risks in AI-built and vibe-coded applications.",
+    "url": "https://vibe-check.cloud/",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI coding tools",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vibe Coded Jira MCP",
+    "description": "A vibe-coded MCP server for connecting AI coding workflows with Jira issue management.",
+    "url": "https://github.com/klauseduard/vibe-coded-jira-mcp",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Cursor",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Codex CLI",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vibra Code",
+    "description": "An open-source AI app builder for mobile projects with prompt-to-app generation and phone preview.",
+    "url": "https://github.com/sa4hnd/vibra-code",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zForge Marketplace",
+    "description": "A Claude Code plugin marketplace for production-ready security and development workshops built with Agent Forge.",
+    "url": "https://github.com/jeffdeville/zForge-marketplace",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Agent Forge",
+        "models": [
+          {
+            "model": "Not specified"
           }
         ]
       }

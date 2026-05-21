@@ -1,0 +1,28 @@
+{
+  "name": "Seren Website",
+  "description": "A premium handcrafted candle brand website described as built with AI and no coding.",
+  "url": "https://github.com/iucjaishwal88/seren-website",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-Z",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Claude AI",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Vibe Coded Jira MCP",
+  "description": "A vibe-coded MCP server for connecting AI coding workflows with Jira issue management.",
+  "url": "https://github.com/klauseduard/vibe-coded-jira-mcp",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Cursor",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Codex CLI",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

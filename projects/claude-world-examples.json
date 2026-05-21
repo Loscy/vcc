@@ -1,0 +1,20 @@
+{
+  "name": "Claude World Examples",
+  "description": "A collection of practical examples, best practices, templates, and case studies for Claude Code and Director Mode.",
+  "url": "https://github.com/claude-world/claude-world-examples",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

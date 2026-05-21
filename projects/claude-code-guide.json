@@ -1,0 +1,20 @@
+{
+  "name": "Claude Code Guide",
+  "description": "A static Claude Code tutorial and reference site covering setup, commands, workflows, agents, skills, and tips.",
+  "url": "https://github.com/zebbern/claude-code-guide",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

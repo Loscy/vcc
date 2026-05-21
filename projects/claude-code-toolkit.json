@@ -1,0 +1,20 @@
+{
+  "name": "Claude Code Toolkit",
+  "description": "A production-tested toolkit of commands, skills, and workflow patterns for Claude Code.",
+  "url": "https://github.com/applied-artificial-intelligence/claude-code-toolkit",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}
