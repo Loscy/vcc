@@ -1,0 +1,20 @@
+{
+  "name": "Event Calendar",
+  "description": "A React calendar component using UI components built with v0.",
+  "url": "https://github.com/origin-space/event-calendar",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "v0",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

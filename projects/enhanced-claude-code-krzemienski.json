@@ -1,0 +1,20 @@
+{
+  "name": "Enhanced Claude Code",
+  "description": "An enhanced Claude Code tutorial and builder page with build logs marked as built with Claude Code v3.0.",
+  "url": "https://github.com/krzemienski/enhanced-claude-code",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "v3.0"
+        }
+      ]
+    }
+  ]
+}

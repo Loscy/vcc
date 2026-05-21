@@ -1,0 +1,20 @@
+{
+  "name": "v0 F1 Favorites Dashboard",
+  "description": "An F1 favorites dashboard synced from v0.app and marked as built with v0.",
+  "url": "https://github.com/Studio1HQ/v0-f1-favorites-dashboard",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "v0",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

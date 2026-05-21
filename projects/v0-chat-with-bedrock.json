@@ -1,0 +1,20 @@
+{
+  "name": "v0 Chat with Bedrock",
+  "description": "A Bedrock chat app synced from v0.app and marked as built with v0.",
+  "url": "https://github.com/ErikCH/v0-chat-with-bedrock",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "v0",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

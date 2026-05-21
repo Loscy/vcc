@@ -1,0 +1,20 @@
+{
+  "name": "readme-gen",
+  "description": "A README generator built with v0.app by Vercel.",
+  "url": "https://github.com/Rehanbuilds/readme-gen",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "v0.app",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

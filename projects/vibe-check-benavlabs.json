@@ -1,0 +1,20 @@
+{
+  "name": "Vibe Check",
+  "description": "A security checklist and AI rules resource for vibe-coded apps.",
+  "url": "https://github.com/benavlabs/vibe-check",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI security rules",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Screensaver",
+  "description": "A screensaver web app built with bolt.new.",
+  "url": "https://github.com/anishsrinivasan/screensaver",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "bolt.new",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

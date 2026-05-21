@@ -1,0 +1,20 @@
+{
+  "name": "localgov.ai",
+  "description": "A local-government AI project with core functionality built in the Bolt environment.",
+  "url": "https://github.com/Kroszborg/localgov.ai",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Bolt.new",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

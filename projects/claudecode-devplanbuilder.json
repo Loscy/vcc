@@ -1,0 +1,20 @@
+{
+  "name": "ClaudeCode DevPlanBuilder",
+  "description": "A Claude Code development plan generator built with Claude Code.",
+  "url": "https://github.com/mmorris35/ClaudeCode-DevPlanBuilder",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

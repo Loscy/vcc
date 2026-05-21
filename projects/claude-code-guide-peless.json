@@ -1,0 +1,20 @@
+{
+  "name": "Claude Code Guide",
+  "description": "A Claude Code guide site marked as built with Claude Code.",
+  "url": "https://github.com/peless/claude-code-guide",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

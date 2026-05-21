@@ -1,0 +1,36 @@
+{
+  "name": "Beefree SDK Docs Demos",
+  "description": "A demo documentation repo that includes apps built with v0, Lovable, and Replit.",
+  "url": "https://github.com/BeefreeSDK/beefree-sdk-docs",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "v0",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Lovable",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Replit",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

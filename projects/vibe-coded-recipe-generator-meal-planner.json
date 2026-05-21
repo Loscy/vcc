@@ -1,0 +1,20 @@
+{
+  "name": "Vibe-Coded Recipe Generator Meal Planner",
+  "description": "A vibe-coded recipe generator and meal planner.",
+  "url": "https://github.com/MakendranG/Vibe-Coded-Recipe-Generator-Meal-Planner",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI coding tools",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

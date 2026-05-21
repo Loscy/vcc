@@ -1,0 +1,20 @@
+{
+  "name": "vibesql",
+  "description": "A vibe-coded NIST-compatible database in Rust with SQL and WASM support.",
+  "url": "https://github.com/rjwalters/vibesql",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI coding tools",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

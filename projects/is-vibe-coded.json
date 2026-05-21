@@ -1,0 +1,20 @@
+{
+  "name": "Is Vibe Coded",
+  "description": "A badge and CLI tool for generating AI transparency badges and injecting them into READMEs.",
+  "url": "https://github.com/danielrosehill/Is-Vibe-Coded",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI transparency tooling",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

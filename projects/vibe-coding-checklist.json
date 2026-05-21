@@ -1,0 +1,20 @@
+{
+  "name": "Vibe Coding Checklist",
+  "description": "A security checklist for vibe-coded apps created quickly with AI tools.",
+  "url": "https://github.com/finehq/vibe-coding-checklist",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI security checklist",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

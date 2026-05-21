@@ -1,0 +1,20 @@
+{
+  "name": "Claude Scholar",
+  "description": "An academic research tool built with Claude Code CLI.",
+  "url": "https://github.com/Galaxy-Dawn/claude-scholar",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code CLI",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

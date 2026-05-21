@@ -1,0 +1,20 @@
+{
+  "name": "angrykaren",
+  "description": "An AI customer-service and video avatar platform built with Bolt.new for rapid AI-assisted development.",
+  "url": "https://github.com/gratitude5dee/angrykaren",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Bolt.new",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

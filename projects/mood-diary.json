@@ -1,0 +1,28 @@
+{
+  "name": "Mood Diary",
+  "description": "A Gemini-powered mood diary and visualization app built with Cursor AI.",
+  "url": "https://github.com/AreumAn/mood-diary",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Cursor AI",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Gemini API",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

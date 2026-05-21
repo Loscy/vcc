@@ -1,0 +1,28 @@
+{
+  "name": "Rye Lovable Demo",
+  "description": "A demo ecommerce app built with Lovable and Rye.",
+  "url": "https://github.com/rye-com/rye-lovable-demo",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Rye",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

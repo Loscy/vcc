@@ -1,0 +1,20 @@
+{
+  "name": "CluesApp",
+  "description": "An Electron sticky-notes app built using Cursor IDE.",
+  "url": "https://github.com/mucahit-sahin/CluesApp",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Cursor IDE",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

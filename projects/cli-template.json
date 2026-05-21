@@ -1,0 +1,28 @@
+{
+  "name": "cli-template",
+  "description": "A Go CLI template built with Cursor and Claude Max.",
+  "url": "https://github.com/mavogel/cli-template",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Cursor",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "Claude",
+      "models": [
+        {
+          "model": "Max"
+        }
+      ]
+    }
+  ]
+}

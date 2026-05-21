@@ -1,5 +1,25 @@
 [
   {
+    "name": "angrykaren",
+    "description": "An AI customer-service and video avatar platform built with Bolt.new for rapid AI-assisted development.",
+    "url": "https://github.com/gratitude5dee/angrykaren",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Bolt.new",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Anthropic Token Counter",
     "description": "A web tool for counting Anthropic API tokens, with its initial interface created using v0.",
     "url": "https://github.com/jerhadf/token-counter",
@@ -20,12 +40,68 @@
     ]
   },
   {
+    "name": "Beefree SDK Docs Demos",
+    "description": "A demo documentation repo that includes apps built with v0, Lovable, and Replit.",
+    "url": "https://github.com/BeefreeSDK/beefree-sdk-docs",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "v0",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Lovable",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Replit",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Claude Code Base Project",
     "description": "A production-ready Claude Code project template with specialized agents, Open Specs skills, and anti-hallucination layers.",
     "url": "https://github.com/christianestay/claude-code-base-project",
     "language": "en",
     "vcc": {
       "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Claude Code Guide",
+    "description": "A Claude Code guide site marked as built with Claude Code.",
+    "url": "https://github.com/peless/claude-code-guide",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
       "status": "discovered"
     },
     "ai": [
@@ -120,6 +196,26 @@
     ]
   },
   {
+    "name": "Claude Scholar",
+    "description": "An academic research tool built with Claude Code CLI.",
+    "url": "https://github.com/Galaxy-Dawn/claude-scholar",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code CLI",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Claude World Examples",
     "description": "A collection of practical examples, best practices, templates, and case studies for Claude Code and Director Mode.",
     "url": "https://github.com/claude-world/claude-world-examples",
@@ -134,6 +230,154 @@
         "models": [
           {
             "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ClaudeCode DevPlanBuilder",
+    "description": "A Claude Code development plan generator built with Claude Code.",
+    "url": "https://github.com/mmorris35/ClaudeCode-DevPlanBuilder",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cli-template",
+    "description": "A Go CLI template built with Cursor and Claude Max.",
+    "url": "https://github.com/mavogel/cli-template",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Cursor",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Claude",
+        "models": [
+          {
+            "model": "Max"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CluesApp",
+    "description": "An Electron sticky-notes app built using Cursor IDE.",
+    "url": "https://github.com/mucahit-sahin/CluesApp",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Cursor IDE",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CodeTie",
+    "description": "A Cursor-XCode-Swift synchronization tool built as a coding workflow bridge.",
+    "url": "https://github.com/codetie-ai/codetie",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Cursor-XCode-Swift-Sync",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Daily Coding Challenge Planner",
+    "description": "A frontend challenge planner built with Bolt.new.",
+    "url": "https://github.com/crnacura/daily-coding-challenge-planner",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Bolt.new",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DesktopDeclutter",
+    "description": "A macOS desktop organization app built with Cursor and Composer-1.",
+    "url": "https://github.com/kamilstanuch/DesktopDeclutter",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Cursor",
+        "models": [
+          {
+            "model": "Composer-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Enhanced Claude Code",
+    "description": "An enhanced Claude Code tutorial and builder page with build logs marked as built with Claude Code v3.0.",
+    "url": "https://github.com/krzemienski/enhanced-claude-code",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "v3.0"
           }
         ]
       }
@@ -160,6 +404,46 @@
     ]
   },
   {
+    "name": "Event Calendar",
+    "description": "A React calendar component using UI components built with v0.",
+    "url": "https://github.com/origin-space/event-calendar",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "v0",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Finance Tracker Vibe Coded",
+    "description": "A vibe-coded finance tracker app.",
+    "url": "https://github.com/lucrnz/finance-tracker-vibe-coded",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI coding tools",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Flowify",
     "description": "An open-source chat UI that turns n8n webhook endpoints into production-ready AI chat experiences.",
     "url": "https://github.com/magnusfroste/flowifychat",
@@ -171,6 +455,106 @@
     "ai": [
       {
         "tool": "Lovable",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fosshack25",
+    "description": "A hackathon app built by a beginner using the Lovable AI tool.",
+    "url": "https://github.com/Kamal007OLica/fosshack25",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Lovable AI",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "gptme Web UI",
+    "description": "An archived gptme web UI built with lovable.dev and later merged into the main gptme repository.",
+    "url": "https://github.com/ErikBjare/gptme-webui",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "lovable.dev",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "How About No",
+    "description": "A playful web wrapper built primarily with Bolt.new.",
+    "url": "https://github.com/lloyd094/How-About-No-",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Bolt.new",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Is Vibe Coded",
+    "description": "A badge and CLI tool for generating AI transparency badges and injecting them into READMEs.",
+    "url": "https://github.com/danielrosehill/Is-Vibe-Coded",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI transparency tooling",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "localgov.ai",
+    "description": "A local-government AI project with core functionality built in the Bolt environment.",
+    "url": "https://github.com/Kroszborg/localgov.ai",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Bolt.new",
         "models": [
           {
             "model": "Not specified"
@@ -201,6 +585,66 @@
     ]
   },
   {
+    "name": "lovable-backend",
+    "description": "A spec-first REST API backend demo paired with a frontend built with Lovable.",
+    "url": "https://github.com/evshvarov/lovable-backend",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Lovable",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mathl33t",
+    "description": "A 3D math game described as vibe coded with AI, with prompt records included.",
+    "url": "https://github.com/wesbos/mathl33t",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI coding tools",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MindTrack",
+    "description": "A wellness and habit tracker app built with Lovable.ai through prompt-based design and AI editing.",
+    "url": "https://github.com/Shivshanker869/mindtrack-personalwellness",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Lovable.ai",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Modo",
     "description": "An open-source AI IDE that plans before it codes through requirements, design, and task steps.",
     "url": "https://github.com/mohshomis/modo",
@@ -212,6 +656,74 @@
     "ai": [
       {
         "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Modo CLI",
+    "description": "A Claude Code preset CLI built by a beginner developer with help from Claude Code.",
+    "url": "https://github.com/lennacodes/modo",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Claude Code",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mood Diary",
+    "description": "A Gemini-powered mood diary and visualization app built with Cursor AI.",
+    "url": "https://github.com/AreumAn/mood-diary",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Cursor AI",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Gemini API",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "motia-cursor-rfp",
+    "description": "A backend and AI agents demo marked as built with Cursor AI.",
+    "url": "https://github.com/lalitborase001/motia-cursor-rfp",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Cursor AI",
         "models": [
           {
             "model": "Not specified"
@@ -249,6 +761,26 @@
     ]
   },
   {
+    "name": "PiShock Discord Activity",
+    "description": "A Discord Activity and IoT control project built with Bolt.new AI assistance; device-control use requires extra care.",
+    "url": "https://github.com/Codixer/pishock-discord-activity",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Bolt.new",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "prodlint",
     "description": "A production-readiness scanner for vibe-coded apps, focused on security, reliability, performance, and AI code quality.",
     "url": "https://prodlint.com/",
@@ -260,6 +792,114 @@
     "ai": [
       {
         "tool": "AI coding tools",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pronghorn",
+    "description": "An agentic AI software-building platform that orchestrates multi-agent teams from requirements to delivery.",
+    "url": "https://github.com/pronghorn-red/pronghorn",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Lovable",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "readme-gen",
+    "description": "A README generator built with v0.app by Vercel.",
+    "url": "https://github.com/Rehanbuilds/readme-gen",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "v0.app",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "repo-stalker",
+    "description": "A Lovable-built app for watching repository activity.",
+    "url": "https://github.com/andrewm4894/repo-stalker",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Lovable",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rye Lovable Demo",
+    "description": "A demo ecommerce app built with Lovable and Rye.",
+    "url": "https://github.com/rye-com/rye-lovable-demo",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Lovable",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      },
+      {
+        "tool": "Rye",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Screensaver",
+    "description": "A screensaver web app built with bolt.new.",
+    "url": "https://github.com/anishsrinivasan/screensaver",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "bolt.new",
         "models": [
           {
             "model": "Not specified"
@@ -288,6 +928,106 @@
       },
       {
         "tool": "Claude AI",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swift-calc",
+    "description": "A calculator utility app built with Bolt.new.",
+    "url": "https://github.com/seehiong/swift-calc",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "Bolt.new",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "v0 Chat with Bedrock",
+    "description": "A Bedrock chat app synced from v0.app and marked as built with v0.",
+    "url": "https://github.com/ErikCH/v0-chat-with-bedrock",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "v0",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "v0 F1 Favorites Dashboard",
+    "description": "An F1 favorites dashboard synced from v0.app and marked as built with v0.",
+    "url": "https://github.com/Studio1HQ/v0-f1-favorites-dashboard",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "v0",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "v0 Untitled Project",
+    "description": "A portfolio website marked as built with v0.dev.",
+    "url": "https://github.com/rushirb2001/v0-untitled-project",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "v0.dev",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vibe Check",
+    "description": "A security checklist and AI rules resource for vibe-coded apps.",
+    "url": "https://github.com/benavlabs/vibe-check",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI security rules",
         "models": [
           {
             "model": "Not specified"
@@ -344,6 +1084,146 @@
       },
       {
         "tool": "Codex CLI",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vibe Coding by EnzeD",
+    "description": "A methodology and case-index repo listing projects described as 100% vibe coded.",
+    "url": "https://github.com/EnzeD/vibe-coding",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-Z",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI coding tools",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vibe Coding Checklist",
+    "description": "A security checklist for vibe-coded apps created quickly with AI tools.",
+    "url": "https://github.com/finehq/vibe-coding-checklist",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI security checklist",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "vibe-coded",
+    "description": "A CLI utility for checking whether a Git repository was vibe-coded.",
+    "url": "https://github.com/exlee/vibe-coded",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI analysis",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vibe-coded Badge Action",
+    "description": "A GitHub Action that analyzes git history to estimate AI commit share and generate a vibe-coded badge.",
+    "url": "https://github.com/ai-ecoverse/vibe-coded-badge-action",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-A",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI analysis",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vibe-Coded Recipe Generator Meal Planner",
+    "description": "A vibe-coded recipe generator and meal planner.",
+    "url": "https://github.com/MakendranG/Vibe-Coded-Recipe-Generator-Meal-Planner",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI coding tools",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "vibehdf5",
+    "description": "A vibe-coded HDF5 file database with a GUI viewer.",
+    "url": "https://github.com/jacobwilliams/vibehdf5",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI coding tools",
+        "models": [
+          {
+            "model": "Not specified"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "vibesql",
+    "description": "A vibe-coded NIST-compatible database in Rust with SQL and WASM support.",
+    "url": "https://github.com/rjwalters/vibesql",
+    "language": "en",
+    "vcc": {
+      "level": "VCC-V",
+      "status": "discovered"
+    },
+    "ai": [
+      {
+        "tool": "AI coding tools",
         "models": [
           {
             "model": "Not specified"

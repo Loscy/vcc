@@ -1,0 +1,20 @@
+{
+  "name": "Daily Coding Challenge Planner",
+  "description": "A frontend challenge planner built with Bolt.new.",
+  "url": "https://github.com/crnacura/daily-coding-challenge-planner",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Bolt.new",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "MindTrack",
+  "description": "A wellness and habit tracker app built with Lovable.ai through prompt-based design and AI editing.",
+  "url": "https://github.com/Shivshanker869/mindtrack-personalwellness",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable.ai",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

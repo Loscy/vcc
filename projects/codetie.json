@@ -1,0 +1,20 @@
+{
+  "name": "CodeTie",
+  "description": "A Cursor-XCode-Swift synchronization tool built as a coding workflow bridge.",
+  "url": "https://github.com/codetie-ai/codetie",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Cursor-XCode-Swift-Sync",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

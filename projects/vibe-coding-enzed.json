@@ -1,0 +1,20 @@
+{
+  "name": "Vibe Coding by EnzeD",
+  "description": "A methodology and case-index repo listing projects described as 100% vibe coded.",
+  "url": "https://github.com/EnzeD/vibe-coding",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-Z",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI coding tools",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "swift-calc",
+  "description": "A calculator utility app built with Bolt.new.",
+  "url": "https://github.com/seehiong/swift-calc",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Bolt.new",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

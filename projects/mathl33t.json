@@ -1,0 +1,20 @@
+{
+  "name": "mathl33t",
+  "description": "A 3D math game described as vibe coded with AI, with prompt records included.",
+  "url": "https://github.com/wesbos/mathl33t",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI coding tools",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

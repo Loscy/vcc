@@ -1,0 +1,20 @@
+{
+  "name": "vibe-coded",
+  "description": "A CLI utility for checking whether a Git repository was vibe-coded.",
+  "url": "https://github.com/exlee/vibe-coded",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI analysis",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Modo CLI",
+  "description": "A Claude Code preset CLI built by a beginner developer with help from Claude Code.",
+  "url": "https://github.com/lennacodes/modo",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

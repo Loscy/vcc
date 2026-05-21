@@ -1,0 +1,20 @@
+{
+  "name": "Finance Tracker Vibe Coded",
+  "description": "A vibe-coded finance tracker app.",
+  "url": "https://github.com/lucrnz/finance-tracker-vibe-coded",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI coding tools",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

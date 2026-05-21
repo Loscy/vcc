@@ -1,0 +1,20 @@
+{
+  "name": "Pronghorn",
+  "description": "An agentic AI software-building platform that orchestrates multi-agent teams from requirements to delivery.",
+  "url": "https://github.com/pronghorn-red/pronghorn",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

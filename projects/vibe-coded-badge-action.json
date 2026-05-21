@@ -1,0 +1,20 @@
+{
+  "name": "Vibe-coded Badge Action",
+  "description": "A GitHub Action that analyzes git history to estimate AI commit share and generate a vibe-coded badge.",
+  "url": "https://github.com/ai-ecoverse/vibe-coded-badge-action",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI analysis",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

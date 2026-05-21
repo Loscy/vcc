@@ -1,0 +1,20 @@
+{
+  "name": "motia-cursor-rfp",
+  "description": "A backend and AI agents demo marked as built with Cursor AI.",
+  "url": "https://github.com/lalitborase001/motia-cursor-rfp",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Cursor AI",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

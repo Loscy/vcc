@@ -1,0 +1,20 @@
+{
+  "name": "lovable-backend",
+  "description": "A spec-first REST API backend demo paired with a frontend built with Lovable.",
+  "url": "https://github.com/evshvarov/lovable-backend",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "DesktopDeclutter",
+  "description": "A macOS desktop organization app built with Cursor and Composer-1.",
+  "url": "https://github.com/kamilstanuch/DesktopDeclutter",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Cursor",
+      "models": [
+        {
+          "model": "Composer-1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "v0 Untitled Project",
+  "description": "A portfolio website marked as built with v0.dev.",
+  "url": "https://github.com/rushirb2001/v0-untitled-project",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "v0.dev",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

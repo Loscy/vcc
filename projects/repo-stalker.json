@@ -1,0 +1,20 @@
+{
+  "name": "repo-stalker",
+  "description": "A Lovable-built app for watching repository activity.",
+  "url": "https://github.com/andrewm4894/repo-stalker",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}
