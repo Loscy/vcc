@@ -1,0 +1,20 @@
+{
+  "name": "Cursor Rule Framework",
+  "description": "A Cursor AI rule framework for vibe coding, described as co-built by engineers and AI.",
+  "url": "https://github.com/fbrbovic/cursor-rule-framework",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Cursor AI",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

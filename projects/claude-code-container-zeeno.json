@@ -1,0 +1,20 @@
+{
+  "name": "Claude Code CLI Container",
+  "description": "An unofficial containerized Claude Code CLI whose README states all code was written by Claude Code.",
+  "url": "https://github.com/Zeeno-atl/claude-code",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-Z",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Rmlx",
+  "description": "An R interface to Apple's MLX library described as vibe-coded with Claude and OpenAI Codex.",
+  "url": "https://github.com/hughjonesd/Rmlx",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    },
+    {
+      "tool": "OpenAI Codex",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

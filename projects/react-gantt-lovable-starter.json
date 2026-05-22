@@ -1,0 +1,20 @@
+{
+  "name": "React Gantt Lovable Starter",
+  "description": "A multi-project planning demo built with DHTMLX React Gantt, Supabase, and Lovable AI, including a step-by-step Lovable build recipe.",
+  "url": "https://github.com/DHTMLX/react-gantt-lovable-starter",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable AI",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

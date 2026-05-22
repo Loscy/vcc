@@ -1,0 +1,20 @@
+{
+  "name": "Claude Code Skills",
+  "description": "A professional Claude Code skills marketplace built using the skill-creator skill for Claude Code.",
+  "url": "https://github.com/daymade/claude-code-skills",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "skill-creator"
+        }
+      ]
+    }
+  ]
+}

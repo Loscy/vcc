@@ -1,0 +1,20 @@
+{
+  "name": "pokemonpacks",
+  "description": "A Pokémon TCG pack-opening app built with Lovable.",
+  "url": "https://github.com/bryanseah234/pokemonpacks",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Lovable",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

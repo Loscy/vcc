@@ -1,0 +1,20 @@
+{
+  "name": "Vibe Code Kit",
+  "description": "An AI-first Vue.js starter and Claude Code rules toolkit for prompt-driven development.",
+  "url": "https://github.com/croffasia/vibecodekit",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

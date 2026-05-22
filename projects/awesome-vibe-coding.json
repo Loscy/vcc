@@ -1,0 +1,20 @@
+{
+  "name": "Awesome Vibe Coding",
+  "description": "A curated directory of vibe coding tools, projects, and resources described as built through vibe coding practices.",
+  "url": "https://github.com/0xWelt/Awesome-Vibe-Coding",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-V",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "AI coding tools",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}

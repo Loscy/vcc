@@ -1,0 +1,20 @@
+{
+  "name": "LLM Wiki",
+  "description": "A Logseq and Obsidian-compatible implementation of Karpathy's LLM Wiki, credited as built with Claude Code.",
+  "url": "https://github.com/MehmetGoekce/llm-wiki",
+  "language": "en",
+  "vcc": {
+    "level": "VCC-A",
+    "status": "discovered"
+  },
+  "ai": [
+    {
+      "tool": "Claude Code",
+      "models": [
+        {
+          "model": "Not specified"
+        }
+      ]
+    }
+  ]
+}
